@@ -1,0 +1,1 @@
+var breadcrumbs=[['-1',"",""],['2',"LogicaDeNegocios Reference","topic_00000000000000AD.html"],['4',"LogicaDeNegocios Namespace","topic_0000000000000000.html"],['112',"Cooperativa Class","topic_0000000000000053.html"],['122',"Methods","topic_0000000000000053_methods--.html"],['123',"ActualizarCooperativa Method","topic_000000000000005D.html"]];

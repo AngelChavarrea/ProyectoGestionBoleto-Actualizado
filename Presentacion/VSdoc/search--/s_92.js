@@ -1,0 +1,1 @@
+search_result['92']=["topic_0000000000000022.html","RegistrarClienteporAdmin Constructor","/// Initializes a new instance of the RegistrarClienteporAdmin class.\r\n        ///"];

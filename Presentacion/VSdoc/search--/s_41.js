@@ -1,0 +1,1 @@
+search_result['41']=["topic_0000000000000012.html","ConsultarClienteporAdmin Class","/// Class EliminarClienteporAdmin.\r\n    /// Implements the Form\r\n    ///"];

@@ -1,0 +1,1 @@
+search_result['191']=["topic_0000000000000047_overloads--.html","RegistroCooperativa Constructor","/// Initializes a new instance of the RegistroCooperativa class.\r\n        ///"];

@@ -1,0 +1,1 @@
+search_result['40']=["topic_0000000000000013_overloads--.html","AdmCooperativa.ConsultarCooperativa Method","/// Consultas the Cooperativa.\r\n        ///"];

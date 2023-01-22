@@ -1,0 +1,1 @@
+c['26']=[['27',"ConsultarCooperativa(int) Method","topic_0000000000000013.html",0],['28',"ConsultarCooperativa(string) Method","topic_0000000000000018.html",0]];

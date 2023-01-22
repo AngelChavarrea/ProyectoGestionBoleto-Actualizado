@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        .TabalaCabezera th {
+            text-align: center;
+            border: 1px solid black;
+            padding: 5px;
+            color: white;
+        }
+
+        .TabalaCabezera td {
+            text-align: center;
+            border: 1px solid black;
+            padding: 5px;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <div>
+                <div style="width: 100%;">
+                    <h1 style="color: rgb(18, 33, 43); font-size: 26px; text-align: center;">VIAJEROS S.A</h1>
+                    <p style="color: rgb(18, 33, 43); font-size: 18px; text-align: center; margin-top: -17px;">Dirección AV. Las Americas</p>
+                    <p style="color: rgb(18, 33, 43); font-size: 18px; text-align: center; margin-top: -17px;">Telefono: 099187965</p>
+                </div>
+            </div>
+            <div>
+                <table>
+                    <tr>
+                        <td colspan="1" style="width: 7%;">Cliente: </td>
+                        <td colspan="1" style="border-bottom: 2px dotted black; width:30%;">@cliente</td>
+                        <td colspan="1" style="width: 7%; padding-left:20px;">Fecha: </td>
+                        <td colspan="1" style="border-bottom: 2px dotted black; width: 15%; ">@fechas</td>
+                    </tr>
+                </table>
+            </div>
+            <h2>-------------------------------------------------------------------------------------------</h2>
+            <div class="table-responsive">
+                <table>
+                    <thead class="TabalaCabezera" style="background-color: rgb(153, 196, 214); border-bottom: 2px solid red;">
+                        <tr>
+                            <th>Id compra</th>
+                            <th>Cooperativa</th>
+                            <th>Placa Bus</th>
+                            <th>Cedula comprador</th>
+                            <th>Fecha Salida</th>
+                            <th>Hora Salida</th>
+                            <th>Precio</th>
+                        </tr>
+                    </thead>
+                    <tbody class="TabalaCabezera">
+                        @Filax
+                        <tr>
+                            <td align="center" style="border: 0px !important;"></td>
+                            <td align="center" style="border: 0px !important;"></td>
+                            <td align="center" style="border: 0px !important;"></td>
+                            <td align="center" style="border: 0px !important;"></td>
+                            <td align="center" style="border: 0px !important;"></td>
+                            <td align="center">Total</td>
+                            <td align="center">@Total</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </header>
+</body>
+</html>

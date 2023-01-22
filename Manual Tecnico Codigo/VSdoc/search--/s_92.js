@@ -1,0 +1,1 @@
+search_result['92']=["topic_000000000000002B.html","AdmVendedor.ConsularVendedor Method","/// Consultas the Vendedor.\r\n        ///"];

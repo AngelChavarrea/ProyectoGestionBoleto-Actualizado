@@ -1,0 +1,1 @@
+search_result['221']=["topic_0000000000000053.html","PerfilVendedor Constructor","/// Initializes a new instance of the PerfilVendedor class.\r\n        ///"];

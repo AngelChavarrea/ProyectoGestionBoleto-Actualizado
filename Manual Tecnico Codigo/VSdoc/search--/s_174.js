@@ -1,0 +1,1 @@
+search_result['174']=["topic_0000000000000054.html","Cooperativa(String, String, String, String, CredencialUsuario) Constructor","/// Initializes a new instance of the Cooperativa class.\r\n        ///"];

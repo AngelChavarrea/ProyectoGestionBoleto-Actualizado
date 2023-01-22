@@ -1,0 +1,1 @@
+c['106']=[['107',"ConsultarClienteporAdmin Constructor","topic_0000000000000013.html",0],['108',"Methods","topic_0000000000000012_methods--.html",1]];

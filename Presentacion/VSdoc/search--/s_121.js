@@ -1,0 +1,1 @@
+search_result['121']=["topic_000000000000002D.html","VentanaAdministrador Constructor","/// Initializes a new instance of the VentanaAdministrador class.\r\n        ///"];

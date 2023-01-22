@@ -1,0 +1,1 @@
+search_result['183']=["topic_000000000000005B.html","Cooperativa.InsertarCooperativa Method","/// Insertars the cooperativa.\r\n        ///"];

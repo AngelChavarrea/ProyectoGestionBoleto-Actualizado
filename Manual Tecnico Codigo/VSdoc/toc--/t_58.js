@@ -1,0 +1,1 @@
+c['58']=[['59',"ActualizarAdministrador Method","topic_0000000000000021.html",0],['60',"ConsultarAdministrador Method","topic_000000000000001F.html",0],['61',"InsertarAdministrador Method","topic_0000000000000020.html",0]];

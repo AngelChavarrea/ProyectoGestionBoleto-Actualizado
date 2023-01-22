@@ -1,0 +1,1 @@
+var breadcrumbs=[['-1',"",""],['2',"Presentacion Reference","topic_000000000000006F.html"],['100',"Presentacion.SGA_Administrador Namespace","topic_000000000000000E.html"],['111',"ConsultarCooperativa Class","topic_0000000000000015.html"],['112',"ConsultarCooperativa Constructor","topic_0000000000000016.html"]];

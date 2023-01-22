@@ -1,0 +1,1 @@
+c['18']=[['19',"ConsultaClient Method","topic_000000000000000F.html",0],['20',"ConsultarCliente Method","topic_000000000000000E.html",0],['21',"EliminarCliente Method","topic_0000000000000010.html",0],['22',"Modificar Method","topic_000000000000000D.html",0],['23',"RegistrarCliente Method","topic_000000000000000C.html",0]];

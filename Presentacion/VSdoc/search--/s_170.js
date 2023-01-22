@@ -1,0 +1,1 @@
+search_result['170']=["topic_0000000000000040.html","InterfazCooperativa Constructor","/// Initializes a new instance of the InterfazCliente class.\r\n        ///"];

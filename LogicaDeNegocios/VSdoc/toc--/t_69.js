@@ -1,0 +1,1 @@
+c['69']=[['70',"Bus() Constructor","topic_0000000000000034.html",0],['71',"Bus(string, int, int) Constructor","topic_0000000000000035.html",0]];

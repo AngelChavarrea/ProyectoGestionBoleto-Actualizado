@@ -1,0 +1,1 @@
+search_result['199']=["topic_0000000000000064.html","ControlExcepcion Class","/// Class ControlExcepcion.\r\n    /// Implements the Exception\r\n    ///"];

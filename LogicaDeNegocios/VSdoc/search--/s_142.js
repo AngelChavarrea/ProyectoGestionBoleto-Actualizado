@@ -1,0 +1,1 @@
+search_result['142']=["topic_0000000000000044.html","Cliente(String, String, String, String, CredencialUsuario) Constructor","/// Initializes a new instance of the Cliente class.\r\n        ///"];

@@ -1,0 +1,1 @@
+search_result['283']=["topic_000000000000006B.html","RegistroCliente(String) Constructor","/// Initializes a new instance of the RegistroCliente class.\r\n        ///"];

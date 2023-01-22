@@ -1,0 +1,1 @@
+search_result['186']=["topic_000000000000005E.html","CredencialUsuario Class","/// Se crea la clase credencial con los atributos correo y contraseña.\r\n    ///"];

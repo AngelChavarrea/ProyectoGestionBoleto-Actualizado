@@ -1,0 +1,1 @@
+c['77']=[['78',"RegistroVendedor Constructor","topic_0000000000000056_overloads--.html",1],['81',"Methods","topic_0000000000000055_methods--.html",1]];

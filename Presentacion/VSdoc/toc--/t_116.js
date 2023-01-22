@@ -1,0 +1,1 @@
+c['116']=[['117',"ConsultarVendedor Constructor","topic_0000000000000019.html",0],['118',"Methods","topic_0000000000000018_methods--.html",1]];

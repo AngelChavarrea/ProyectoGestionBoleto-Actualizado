@@ -1,0 +1,1 @@
+search_result['220']=["topic_000000000000006A.html","InformacionDerutaCooperativa.Cooperativa Property","/// Gets or sets the cooperativa.\r\n        ///"];

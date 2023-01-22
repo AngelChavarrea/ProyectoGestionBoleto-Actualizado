@@ -1,0 +1,1 @@
+var breadcrumbs=[['-1',"",""],['2',"Presentacion Reference","topic_000000000000006F.html"],['4',"Presentacion Namespace","topic_0000000000000006.html"],['23',"InterfazCliente Class","topic_0000000000000060.html"],['24',"InterfazCliente Constructor","topic_0000000000000061.html"]];

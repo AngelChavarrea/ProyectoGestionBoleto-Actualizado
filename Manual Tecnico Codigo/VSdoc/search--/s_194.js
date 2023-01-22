@@ -1,0 +1,1 @@
+search_result['194']=["topic_0000000000000060.html","CredencialUsuario(String, String, Int32) Constructor","/// Se crea el construcor parametrizando.\r\n        ///"];

@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9191D0A3-67A6-4C25-B16A-57106D4699E6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Presentacion</RootNamespace>
+    <AssemblyName>Presentacion</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxShockwaveFlashObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.9.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <HintPath>..\packages\BouncyCastle.1.8.9\lib\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FontAwesome.Sharp, Version=5.15.4.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f, processorArchitecture=MSIL">
+      <HintPath>..\packages\FontAwesome.Sharp.5.15.4\lib\net472\FontAwesome.Sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2, Version=2.0.4.0, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.4\lib\net472\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.3, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.13.3\lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.xmlworker, Version=5.5.13.3, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itextsharp.xmlworker.5.5.13.3\lib\itextsharp.xmlworker.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="InicioFroms\BuscarBus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InicioFroms\BuscarBus.Designer.cs">
+      <DependentUpon>BuscarBus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InicioSesion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InicioSesion.Designer.cs">
+      <DependentUpon>InicioSesion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Principal_Usuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal_Usuario.Designer.cs">
+      <DependentUpon>Principal_Usuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SGA_Administrador\ConsultarChofer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SGA_Administrador\ConsultarChofer.Designer.cs">
+      <DependentUpon>ConsultarChofer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SGA_Administrador\ConsultarClienteporAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SGA_Administrador\ConsultarClienteporAdmin.Designer.cs">
+      <DependentUpon>ConsultarClienteporAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SGA_Administrador\ConsultarCooperativa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SGA_Administrador\ConsultarCooperativa.Designer.cs">
+      <DependentUpon>ConsultarCooperativa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SGA_Administrador\ConsultarVendedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SGA_Administrador\ConsultarVendedor.Designer.cs">
+      <DependentUpon>ConsultarVendedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SGA_Administrador\FormEditarPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SGA_Administrador\FormEditarPrincipal.Designer.cs">
+      <DependentUpon>FormEditarPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SGA_Administrador\PerfilAdminidtrador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SGA_Administrador\PerfilAdminidtrador.Designer.cs">
+      <DependentUpon>PerfilAdminidtrador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SGA_Administrador\RegistrarClienteporAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SGA_Administrador\RegistrarClienteporAdmin.Designer.cs">
+      <DependentUpon>RegistrarClienteporAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SGA_Administrador\RegistroAdministrador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SGA_Administrador\RegistroAdministrador.Designer.cs">
+      <DependentUpon>RegistroAdministrador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SGA_Administrador\Reorte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SGA_Administrador\Reorte.Designer.cs">
+      <DependentUpon>Reorte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SGA_Administrador\VentanaAdministrador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SGA_Administrador\VentanaAdministrador.designer.cs">
+      <DependentUpon>VentanaAdministrador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SGA_Chofer\InterfazChofer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SGA_Chofer\InterfazChofer.Designer.cs">
+      <DependentUpon>InterfazChofer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SGA_Chofer\PerfilChofer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SGA_Chofer\PerfilChofer.Designer.cs">
+      <DependentUpon>PerfilChofer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SGA_Chofer\RegistroChofer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SGA_Chofer\RegistroChofer.Designer.cs">
+      <DependentUpon>RegistroChofer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SGA_Cooperativa\GenerarBoleto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SGA_Cooperativa\GenerarBoleto.Designer.cs">
+      <DependentUpon>GenerarBoleto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SGA_Cooperativa\InterfazCooperativa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SGA_Cooperativa\InterfazCooperativa.Designer.cs">
+      <DependentUpon>InterfazCooperativa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SGA_Cooperativa\PerfilCooperativa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SGA_Cooperativa\PerfilCooperativa.Designer.cs">
+      <DependentUpon>PerfilCooperativa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SGA_Cooperativa\RegistroRuta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SGA_Cooperativa\RegistroRuta.Designer.cs">
+      <DependentUpon>RegistroRuta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SGA_Cooperativa\RegistroCooperativa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SGA_Cooperativa\RegistroCooperativa.Designer.cs">
+      <DependentUpon>RegistroCooperativa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SGA_Vendedor\InterfazVendedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SGA_Vendedor\InterfazVendedor.Designer.cs">
+      <DependentUpon>InterfazVendedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SGA_Vendedor\PerfilVendedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SGA_Vendedor\PerfilVendedor.Designer.cs">
+      <DependentUpon>PerfilVendedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsuarioCliente\Comprar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsuarioCliente\Comprar.designer.cs">
+      <DependentUpon>Comprar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsuarioCliente\InterfazCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsuarioCliente\InterfazCliente.Designer.cs">
+      <DependentUpon>InterfazCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsuarioCliente\Pagar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsuarioCliente\Pagar.designer.cs">
+      <DependentUpon>Pagar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsuarioCliente\PerfilCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsuarioCliente\PerfilCliente.Designer.cs">
+      <DependentUpon>PerfilCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsuarioCliente\RegistroCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsuarioCliente\RegistroCliente.Designer.cs">
+      <DependentUpon>RegistroCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SGA_Vendedor\RegistroVendedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SGA_Vendedor\RegistroVendedor.designer.cs">
+      <DependentUpon>RegistroVendedor.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="InicioFroms\BuscarBus.resx">
+      <DependentUpon>BuscarBus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InicioSesion.resx">
+      <DependentUpon>InicioSesion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal_Usuario.resx">
+      <DependentUpon>Principal_Usuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SGA_Administrador\ConsultarChofer.resx">
+      <DependentUpon>ConsultarChofer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SGA_Administrador\ConsultarClienteporAdmin.resx">
+      <DependentUpon>ConsultarClienteporAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SGA_Administrador\ConsultarCooperativa.resx">
+      <DependentUpon>ConsultarCooperativa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SGA_Administrador\ConsultarVendedor.resx">
+      <DependentUpon>ConsultarVendedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SGA_Administrador\FormEditarPrincipal.resx">
+      <DependentUpon>FormEditarPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SGA_Administrador\PerfilAdminidtrador.resx">
+      <DependentUpon>PerfilAdminidtrador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SGA_Administrador\RegistrarClienteporAdmin.resx">
+      <DependentUpon>RegistrarClienteporAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SGA_Administrador\RegistroAdministrador.resx">
+      <DependentUpon>RegistroAdministrador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SGA_Administrador\Reorte.resx">
+      <DependentUpon>Reorte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SGA_Administrador\VentanaAdministrador.resx">
+      <DependentUpon>VentanaAdministrador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SGA_Chofer\InterfazChofer.resx">
+      <DependentUpon>InterfazChofer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SGA_Chofer\PerfilChofer.resx">
+      <DependentUpon>PerfilChofer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SGA_Chofer\RegistroChofer.resx">
+      <DependentUpon>RegistroChofer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SGA_Cooperativa\GenerarBoleto.resx">
+      <DependentUpon>GenerarBoleto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SGA_Cooperativa\InterfazCooperativa.resx">
+      <DependentUpon>InterfazCooperativa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SGA_Cooperativa\PerfilCooperativa.resx">
+      <DependentUpon>PerfilCooperativa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SGA_Cooperativa\RegistroRuta.resx">
+      <DependentUpon>RegistroRuta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SGA_Cooperativa\RegistroCooperativa.resx">
+      <DependentUpon>RegistroCooperativa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SGA_Vendedor\InterfazVendedor.resx">
+      <DependentUpon>InterfazVendedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SGA_Vendedor\PerfilVendedor.resx">
+      <DependentUpon>PerfilVendedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsuarioCliente\Comprar.resx">
+      <DependentUpon>Comprar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsuarioCliente\InterfazCliente.resx">
+      <DependentUpon>InterfazCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsuarioCliente\Pagar.resx">
+      <DependentUpon>Pagar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsuarioCliente\PerfilCliente.resx">
+      <DependentUpon>PerfilCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsuarioCliente\RegistroCliente.resx">
+      <DependentUpon>RegistroCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SGA_Vendedor\RegistroVendedor.resx">
+      <DependentUpon>RegistroVendedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LogicaDeNegocios\LogicaDeNegocios.csproj">
+      <Project>{83c47f94-b08d-41f2-b4d2-7031057e76f0}</Project>
+      <Name>LogicaDeNegocios</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eabdd3491b4883f140331e12b654eb56.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d4wzusy-073e2814-3c19-4379-8264-dbb7c3e97d6d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo-blanco-diseno-patron-hexagonal-3d_1017-28443.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salvapantallas-textura-elegante-blanco_23-2148421855.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-blue-big-car-illustration-cartoon-shuttle-blue-bus-gray-glass-png-image_454310.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-blue-big-car-illustration-cartoon-shuttle-blue-bus-gray-glass-png-image_454310.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c82646ff36e2523350d01fff093938f6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\editar.ico" />
+    <Content Include="Resources\eliminar.ico" />
+    <Content Include="Resources\mundo.ico" />
+    <None Include="Resources\Presentar.html" />
+    <None Include="Resources\Presentar.bmp" />
+    <None Include="Resources\pngtree-blue-big-car-illustration-cartoon-shuttle-blue-bus-gray-glass-png-image_4543101.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

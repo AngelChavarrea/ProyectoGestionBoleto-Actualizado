@@ -1,0 +1,1 @@
+search_result['53']=["topic_000000000000001A.html","Administrador(String, String, String, String, String, Double, CredencialUsuario) Constructor","/// Initializes a new instance of the Administrador class.\r\n        ///"];

@@ -1,0 +1,1 @@
+var breadcrumbs=[['-1',"",""],['2',"LogicaDeNegocios Reference","topic_00000000000000AD.html"],['4',"LogicaDeNegocios Namespace","topic_0000000000000000.html"],['165',"Persona Class","topic_000000000000007F.html"],['174',"Methods","topic_000000000000007F_methods--.html"],['175',"ToString Method","topic_0000000000000086.html"]];

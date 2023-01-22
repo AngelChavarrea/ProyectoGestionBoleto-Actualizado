@@ -1,0 +1,1 @@
+search_result['39']=["topic_0000000000000013.html","AdmCooperativa.ConsultarCooperativa (Int32) Method","/// Consultas the Cooperativa.\r\n        ///"];
